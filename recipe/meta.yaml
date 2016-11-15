@@ -1,0 +1,34 @@
+{% set name = "csdms-rafem" %}
+{% set version = "0.1" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  git_url: https://github.com/katmratliff/avulsion-bmi
+
+requirements:
+  build:
+    - bmi-babel
+    - rafem
+  run:
+    - bmi-babel
+    - rafem
+
+test:
+  requires:
+    - pymt
+
+build:
+  number: 0
+
+about:
+  home: http://csdms.colorado.edu/wiki/Model:RAFEM
+  license: MIT
+  summary: River Avulsion and Floodplain Evolution Module
+  description: |
+    Morphodynamic river avulsion model, designed to be coupled
+    with CEM and SEDFLUX3D
+  doc_url: http://csdms.colorado.edu/wiki/Model:RAFEM
+  dev_url: https://github.com/katmratliff/avulsion-bmi
