@@ -5,7 +5,7 @@
 
 # Current Build Status
 
-Linux, OSX: [![Build Status](https://travis-ci.org/csdms-stack/csdms-rafem-recipe.svg?branch=master)](https://travis-ci.org/csdms-stack/csdms-rafem-recipe)
+Linux, OSX: [![Build Status](https://travis-ci.org/csdms-stack/rafem-csdms-recipe.svg?branch=master)](https://travis-ci.org/csdms-stack/rafem-csdms-recipe)
 
 # About csdms-rafem
 
